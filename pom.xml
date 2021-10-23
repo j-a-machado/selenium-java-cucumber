@@ -3,4 +3,13 @@
   <groupId>SeleniumJavaCucumber</groupId>
   <artifactId>AutomationStepByStep</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>6.11.0</version>
+	</dependency>
+  </dependencies>
 </project>
