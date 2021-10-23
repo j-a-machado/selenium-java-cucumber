@@ -6,7 +6,7 @@ Feature: Test Login Functionality
     And clicks on login button
     Then user is navigated to the home page
 
-	## With Scenario Outline I can run the same scenario multiple times
+	# With Scenario Outline I can run the same scenario multiple times
   Scenario Outline: Login succed with valid credentials
     Given user is on login page
     When user enters <username> and <password>
