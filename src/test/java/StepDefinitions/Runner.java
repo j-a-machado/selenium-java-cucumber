@@ -10,5 +10,5 @@ plugin = {"pretty", "html:target/htmlReports.html", "junit:target/JUnitReports/r
 tags="@testThis"
 		)
 public class Runner {
-
+	
 }
