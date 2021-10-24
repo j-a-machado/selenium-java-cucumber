@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/java-v.1.8-blue.svg)
 ![](https://img.shields.io/badge/jdk-v.17-9cf.svg)
 ![](https://img.shields.io/badge/maven-v.3.8-orange.svg)
-![](https://img.shields.io/badge/chrome_driver-v.94-red.svg)
+![](https://img.shields.io/badge/chrome_driver-v.95-red.svg)
 
 ![](https://img.shields.io/badge/cucumber-v.6.11-green.svg)
 ![](https://img.shields.io/badge/junit-v.4.13-blue.svg)
@@ -21,7 +21,7 @@ This project was made following [Selenium Cucumber BDD Framework with Java](http
 * Java v.1.8
 * OpenJDK v.17
 * Maven v.3.8
-* Google Chrome Driver v.94
+* Google Chrome Driver v.95
 
 ### 2.1. Dependencies
 * Cucumber Java v.6.11
@@ -44,6 +44,8 @@ This project was made following [Selenium Cucumber BDD Framework with Java](http
 
 2. If you are using Windows, set the JAVA_HOME Variable. You can use [this tutorial](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html).
 
-3. Clone this repository.
+3. Make sure you have the correct ChromeDriver. More informations about how to do it, [here](https://chromedriver.chromium.org/downloads/version-selection).
+
+4. Clone this repository.
 
     ```git clone https://github.com/j-a-machado/selenium-java-cucumber.git```
