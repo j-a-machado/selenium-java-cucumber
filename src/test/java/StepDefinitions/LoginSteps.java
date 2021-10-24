@@ -1,5 +1,7 @@
 package StepDefinitions;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.*;
@@ -44,21 +46,30 @@ public class LoginSteps {
 
 	@And("user is on Google search page")
 	public void user_is_on_google_search_page() {
-		System.out.println("Step1");
+		driver.navigate().to("https://google.com.br/");
+		String title = driver.getTitle();
+		title = "Google";
 	}
 
 	@When("user enters a text in search box")
-	public void user_enters_a_text_in_search_box() {
-		System.out.println("Step1");
+	public void user_enters_a_text_in_search_box() throws InterruptedException {
+		driver.findElement(By.name("q")).sendKeys("Juliana Antunes Machado");
+		
+		Thread.sleep(2000);
 	}
 
 	@And("hits enter")
-	public void hits_enter() {
-		System.out.println("Step1");
+	public void hits_enter() throws InterruptedException {
+		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+		
+		Thread.sleep(2000);
 	}
 
 	@Then("user is navigated to search results")
 	public void user_is_navigated_to_search_results() {
-		System.out.println("Step1");
+		driver.getPageSource().contains("https://br.linkedin.com");
+		
+		driver.close();
+		driver.quit();
 	}
 }
