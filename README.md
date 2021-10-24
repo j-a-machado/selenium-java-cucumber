@@ -48,4 +48,6 @@ This project was made following [Selenium Cucumber BDD Framework with Java](http
 
 4. Clone this repository.
 
-    ```git clone https://github.com/j-a-machado/selenium-java-cucumber.git```
+    ```
+    git clone https://github.com/j-a-machado/selenium-java-cucumber.git
+    ```
