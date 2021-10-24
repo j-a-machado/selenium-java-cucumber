@@ -48,7 +48,8 @@ This project was made following [Selenium Cucumber BDD Framework with Java](http
     
     More informations about how to do it, [here](https://chromedriver.chromium.org/downloads/version-selection).
 
-    Set the right driver and the right SO that you are using at the [HOME.java](/AutomationStepByStep/src/test/java/StepDefinitions/LoginSteps.java) file.
+    Set the right driver and the right SO that you are using at the [LoginSteps.java](../src/test/java/steps/Home.java) file.
+
 
 4. Clone this repository.
 
