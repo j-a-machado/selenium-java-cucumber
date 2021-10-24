@@ -3,29 +3,39 @@
 ![](https://img.shields.io/badge/java-v.1.8-blue.svg)
 ![](https://img.shields.io/badge/jdk-v.17-9cf.svg)
 ![](https://img.shields.io/badge/maven-v.3.8-orange.svg)
-![](https://img.shields.io/badge/cucumber-v.6.11-green.svg)
 
-## About
+![](https://img.shields.io/badge/cucumber-v.6.11-green.svg)
+![](https://img.shields.io/badge/junit-v.4.13-blue.svg)
+![](https://img.shields.io/badge/cucumber_junit-v.7.0-green.svg)
+![](https://img.shields.io/badge/selenium_java-v.4.0-yellow.svg)
+
+## 1. About
 This is a study project for learning the Selenium Cucumber Java BDD Framework.
 
 This project was made following [Selenium Cucumber BDD Framework with Java](https://www.youtube.com/watch?v=4e9vhX7ZuCw&list=PLhW3qG5bs-L_mFHirOLEYJ7X2rIXu8SR2&index=3&ab_channel=AutomationStepbyStep) playlist classes on YouTube.
 
 ---
 
-## Stack used in this project:
+## 2. Stack used in this project:
+* Java 1.8
 * OpenJDK 17
-* Maven
-* Cucumber 6.11
+* Maven 3.8
+
+### 2.1. Dependencies
+* Cucumber Java 6.11
+* JUnit 4.13
+* Cucumber JUnit 7.0
+* Selenium Java 4.0
 
 ---
 
-## Steps for automation test
+## 3. Steps for automation test
 
 ---
 
-## How to run
+## 4. How to run
 
-### Prerequisites
+### 4.1. Prerequisites
 1. Make sure you have Java and JDK installed.
 
    At prompt, enter `java -version` or download and install Java from [here](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR "Download Java") and JDK from [here](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html "Download JDK").

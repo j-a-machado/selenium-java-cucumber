@@ -1,5 +1,6 @@
 Feature: Test Login Functionality
-
+	
+	@test
   Scenario: Login succed with valid credentials
     Given user is on login page
     When user enters username and password
