@@ -18,7 +18,7 @@ Feature: Test Login Functionality
       | User1    | pass1    |
       | User2    | pass2    |
 
-  @test
+  @testThis
   Scenario: Validate Google searching is working
     Given browser is open
     And user is on Google search page

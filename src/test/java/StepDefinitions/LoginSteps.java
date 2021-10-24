@@ -1,8 +1,14 @@
 package StepDefinitions;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 import io.cucumber.java.en.*;
 
 public class LoginSteps {
+
+	WebDriver driver = null;
+	
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
 		// Write code here that turns the phrase above into concrete actions
@@ -31,6 +37,10 @@ public class LoginSteps {
 	@Given("browser is open")
 	public void browser_is_open() {
 		System.out.println("Step1");
+		System.getProperty("webdriver.chrome.driver", "/AutomationStepByStep/src/test/resources/drivers/chromedriver");
+		
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 	}
 
 	@And("user is on Google search page")

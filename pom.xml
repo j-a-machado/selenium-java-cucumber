@@ -5,7 +5,6 @@
 	<groupId>SeleniumJavaCucumber</groupId>
 	<artifactId>AutomationStepByStep</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
@@ -13,7 +12,6 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>6.11.0</version>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -21,7 +19,6 @@
 			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -29,16 +26,11 @@
 			<version>7.0.0</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.0.0</version>
 		</dependency>
-
-
-
-
 	</dependencies>
 </project>
