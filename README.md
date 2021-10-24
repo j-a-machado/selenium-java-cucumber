@@ -44,15 +44,16 @@ This project was made following [Selenium Cucumber BDD Framework with Java](http
 
 2. If you are using Windows, set the JAVA_HOME Variable. You can use [this tutorial](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html).
 
-3. Make sure you have the correct ChromeDriver.
-    
-    More informations about how to do it, [here](https://chromedriver.chromium.org/downloads/version-selection).
-
-    Set the right driver and the right SO that you are using at the [LoginSteps.java](https://github.com/j-a-machado/selenium-java-cucumber/blob/main/src/test/java/StepDefinitions/LoginSteps.java) file.
-
-
-4. Clone this repository.
+3. Clone this repository.
 
     ```
     git clone https://github.com/j-a-machado/selenium-java-cucumber.git
     ```
+
+4. Make sure you have the correct ChromeDriver.
+    
+    More informations about how to do it, [here](https://chromedriver.chromium.org/downloads/version-selection).
+
+    Put the driver _.exe_ file at _/AccentureCucumberJava/src/test/resources/drivers_ folder.
+
+    Set the right driver and the right SO that you are using at the [LoginSteps.java](https://github.com/j-a-machado/selenium-java-cucumber/blob/main/src/test/java/StepDefinitions/LoginSteps.java) file.
