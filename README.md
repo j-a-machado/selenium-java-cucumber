@@ -3,6 +3,7 @@
 ![](https://img.shields.io/badge/java-v.1.8-blue.svg)
 ![](https://img.shields.io/badge/jdk-v.17-9cf.svg)
 ![](https://img.shields.io/badge/maven-v.3.8-orange.svg)
+![](https://img.shields.io/badge/chrome_driver-v.94-red.svg)
 
 ![](https://img.shields.io/badge/cucumber-v.6.11-green.svg)
 ![](https://img.shields.io/badge/junit-v.4.13-blue.svg)
@@ -17,15 +18,16 @@ This project was made following [Selenium Cucumber BDD Framework with Java](http
 ---
 
 ## 2. Stack used in this project:
-* Java 1.8
-* OpenJDK 17
-* Maven 3.8
+* Java v.1.8
+* OpenJDK v.17
+* Maven v.3.8
+* Google Chrome Driver v.94
 
 ### 2.1. Dependencies
-* Cucumber Java 6.11
-* JUnit 4.13
-* Cucumber JUnit 7.0
-* Selenium Java 4.0
+* Cucumber Java v.6.11
+* JUnit v.4.13
+* Cucumber JUnit v.7.0
+* Selenium Java v.4.0
 
 ---
 
